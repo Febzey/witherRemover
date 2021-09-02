@@ -1,0 +1,5 @@
+name: witherRemover
+main: witherRemover.tut.witherRemover
+version: 0.0.1
+author: Febzey
+description: a lag reducer plugin made for EUSURVIVAL.com.
