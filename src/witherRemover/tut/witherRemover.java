@@ -10,7 +10,6 @@ public class witherRemover extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + getDescription().getName() + " v" + getDescription().getVersion() + " has been enabled.");
-        Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "Made by Febzey#1854");
         (new BukkitRunnable() {
             public void run() {
                 Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "kill @e[type=minecraft:wither_skull]");
